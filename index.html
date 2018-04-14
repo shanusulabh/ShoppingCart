@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="">
+<head >
+    <title>Shopping Cart</title>
+    <script src="angular.min.js"></script>
+    <link href="bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    {{2+2}}
+    <div class="cart">
+            <img src="cart.png" style="width: 120px; height: 130px;"><br/>
+            <span><u>Product Details:</u></span><br/>
+            <div ng-controller="myCtr">
+                <span id="nItems">N. of items:</span><button onclick="ShowQuantity()">Show</button>
+                <br/><span id="subTotal">Total Price:</span>
+            </div>
+    </div>
+    <div class="container">
+       <img src="apple.jpeg">
+        <img src="milk.jpg">
+        <img src="juice.jpg">
+    </div>
+        <div >
+           <span class="rupee"> <i class="fa fa-rupee">180/Kg</i></span>
+            <span class="rupee1"><i class="fa fa-rupee">20</i></span>
+            <span class="rupee2"><i class="fa fa-rupee">50</i></span>
+         </div>
+
+         <div >
+                <span class="quant">Quantity :<input type="text" maxlength="1" id="applePrice" ></span>
+                <span class="quant1">Quantity :<input type="text" maxlength="1" id="milkPrice"></span>
+                <span class="quant2">Quantity :<input type="text" maxlength="1" id="juicePrice"></span>
+        </div>
+        <div>
+            <input type="submit" value="Add" class="addApple" onclick="addApple()">
+            <input type="submit" value="Add" class="addMilk" onclick="addMilk()">
+            <input type="submit" value="Add" class="addJuice" onclick="addJuice()">
+        </div>
+<script src="app.js"></script>
+</body>
+</html>

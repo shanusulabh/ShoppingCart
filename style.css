@@ -1,0 +1,64 @@
+.cart{
+    margin-top: 10px;
+    float: right;
+    position: absolute;
+    right: 60px;
+    height: 280px;
+}
+.container{
+    margin: 0 20px 20px 190px;
+}
+.images{
+   margin-top: 20px;
+   margin-right: 720px;
+    width: 250px;
+    height: 100px;
+    
+}
+.apples{
+    margin-top: 20px;
+}
+.milks{
+    margin-left: 75px;
+}
+.juices{
+    margin-left: 35px;
+}
+.rupee{
+    margin-top: 20px;
+    margin-left: 360px;
+    width: 20px;
+}
+.rupee1{
+    margin-left: 292px;
+    width: 20px;
+}
+.rupee2{
+    margin-left: 260px;
+    width: 20px;
+}
+
+.quant{
+    
+    margin-left: 260px;
+}
+.quant1{
+   
+    margin-left:80px;
+}
+.quant2{
+   
+    margin-left: 40px;
+}
+.addApple{
+    margin-top: 10px;
+    margin-left: 370px;
+}
+.addMilk{
+    margin-top: 10px;
+    margin-left: 280px;
+}
+.addJuice{
+    margin-top: 10px;
+    margin-left: 240px;
+}
